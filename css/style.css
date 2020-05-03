@@ -1,0 +1,325 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  min-width: 1170px;
+}
+
+.header-main {
+  width: 1170px;
+  
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-title {
+
+  padding-bottom: 46px;
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  line-height: 47px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  display: block;
+  color: #000000;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.head-section {
+  margin-bottom: 45px;
+}
+
+.head-container {
+  position: relative;
+  padding-top: 135px;
+  padding-bottom: 50px;
+  
+  max-height: 464px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/Hotel-11.jpg");
+  background-position: center;
+
+}
+
+.ellipse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.h2 {
+  display: block;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 140px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.review {
+  width: 1170px;
+margin: 0 auto;}
+
+.title-review {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.reviews {
+  display: flex;
+justify-content: center;
+margin: 0;
+    margin-bottom: 0px;
+margin-bottom: 50px;
+padding: 0;
+list-style: none;
+
+}
+
+.card-review {
+  width: 360px;
+  margin-right: 30px;
+}
+
+.card-review a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+
+}
+
+.card-review a h3 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 11px;
+}
+
+.review-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  color: #000000;
+}
+.promo {
+  height: 556px;
+  margin: 0 auto;
+  background: #F7F7F7;
+  background-image: url(../img/Ellipse.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+mix-blend-mode: normal;
+
+}
+
+.promo-promo {
+  min-height: 556px;
+margin-bottom: 50px;
+}
+.promo-promo, .promo-promo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.promo-promo h2 {
+  margin-top: 33px;
+}
+.promo-promo h3 {
+  font-family: "Playfair Display", serif;
+font-style: normal;
+font-weight: 900;
+font-size: 23px;
+line-height: 31px;
+
+text-align: center;
+
+color: #000000;
+  width: 370px;
+  margin-bottom: 0;
+}
+.promo-text {
+  text-align: center;
+  width: 370px;
+}
+
+.promo-button-list {
+  position: relative;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+.promo-button {
+  position: relative;
+display: block;
+padding: 15px 30px;
+    padding-right: 30px;
+padding-right: 60px;
+color: #ffffff;
+background-color: #FF7931;
+text-transform: uppercase;
+font-size: 12px;
+line-height: 14px;
+text-decoration: none;
+}
+.promo-button::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 30px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/Shape.svg");
+}
+
+.footer {
+  margin-top: 50px;
+background-color: #575757;
+height: 296px;
+
+}
+.footer-nav {
+  width: 1170px;
+margin: 0 auto;
+}
+.footer-navigation {display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1170px;
+
+}
+
+.footer-title {
+  align-self: center;
+margin-top: 40px;
+margin-bottom: 30px;
+font-family: "Playfair Display", serif;
+color: #ffffff;
+  font-size: 35px;
+  line-height: 47px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-align: center;
+text-decoration: none;
+display: block;
+  position: relative;
+  text-align: center;
+}
+.menu2 {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 85px;
+}
+.menu2 li a {
+  
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 2px;
+color: #FFFFFF;
+list-style: none;
+text-transform: uppercase;
+  text-decoration: none;
+}
+.menu2::after {
+  content: "";
+position: absolute;
+top: 65px;
+width: 100%;
+height: 1px;
+background-color: #fff;
+opacity: 0.4;
+}
+
+
+.social {
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.social ul {
+  display: flex;
+justify-content: space-between;
+margin: 0 auto;
+padding: 0;
+list-style: none;
+}
+.social-button {
+  display: flex;
+justify-content: center;
+align-items: center;
+width: 47px;
+height: 47px;
+background-color: #ffffff;
+}
